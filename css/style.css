@@ -1,0 +1,160 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+  min-height: 96px;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #00aeff;
+  border-color: #00aeff;
+}
+
+a.nav-link.btn.btn-primary.nav-btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.banner-section {
+  min-height: 600px;
+  padding: 6.5rem 0;
+  background: url("../../img/hero-bg-img.jpg") #00aeff;
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+br-6 {
+  border-radius: 6px;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
+
+p {
+  line-height: 30px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+h1.banner-title {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+p.banner-text {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+a.banner-btn {
+  margin-top: 20px;
+  background: #fff;
+  color: #00aeff;
+  padding: 0.8rem 4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.welcome-section {
+  padding: 6rem 0px;
+}
+
+.about-hng {
+  padding: 6rem 0px;
+  background: rgba(0, 174, 255, 0.05);
+}
+ul.u-list {
+  max-width: 90%;
+  position: relative;
+  z-index: 2;
+}
+
+ul.u-list {
+  margin: 0px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.u-list li::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  height: 35px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 6px;
+}
+
+ul.u-list--blue li::after {
+  background-image: url(../../img/check-blue.svg);
+}
+
+ul.u-list li {
+  margin-bottom: 5px;
+  position: relative;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 5px 0px 5px 30px;
+}
+
+ul.u-list li::after {
+  content: "";
+  background-size: cover;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 2px;
+  top: 10px;
+}
+
+a.btn.btn-primary.brn-lg {
+  padding: 0.6rem 3rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.call-action {
+  margin: 6rem auto;
+  background-color: #00aeff;
+  border-radius: 22px;
+  box-shadow: 0 15px 65px 0 #00aeff;
+}
